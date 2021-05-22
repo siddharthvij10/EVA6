@@ -1,5 +1,5 @@
 # EVA6
-EVA6 Batch Assignments
+EVA6 Batch Assignment for Pytorch
 
 # Summary
 The CNN build as a part of this assignment takes in a random number from 0 to 9 along with an image from MNIST dataset and outputs the sum of random number inputted and the number in MNIST image.
