@@ -8,14 +8,14 @@
 ### Session 5 Assignment ###
 Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iterations total. The base model can be picked from previous assignments. Params should be less than 10k.
 
-### Base Model
+[### Base Model]
 * **File** Base_Model
 #### Result
 * Params - 6,377,760, Best Train Acc - 99.94, Best Test Acc - 99.24
 #### Analysis
 * Quite heavy model and has potential to achieve desired result.
 
-### Iteration 1
+[### Iteration 1]
 * **File** Experiment_1
 #### Target
 * Reduce size of model
@@ -24,7 +24,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 #### Analysis
 * Overfitting in model; model has capability to learn more
 
-### Iteration 2
+[### Iteration 2]
 * **File** Experiment_2
 #### Target
 * Overfitting - Reduce overfitting by adding regularization and add training capacity by adding drop out. 
@@ -35,7 +35,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 * There is a mistake in model that the final layer does not converge to 10 outputs as it should be in case of mnist.
 * There is a slight overfitting.
 
-### Iteration 3
+[### Iteration 3]
 * **File** Experiment_3
 #### Target
 * Correct mistake in model w.r.t outputs of final layer - use FC layer after gap
@@ -45,7 +45,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 #### Analysis
 * Model reached target but didnt stay there. 
 
-### Iteration 4
+[### Iteration 4]
 * **File** Experiment_4
 #### Target
 * Add Learning Rate concept using plateau to make sure accuracy stays near to 99.4 
@@ -54,7 +54,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 #### Analysis
 * Model slightly underfitting but achieved target
 
-## Logs from Last iteration
+[## Logs from Last iteration]
 epoch number  11
 Train set: Average loss: 0.0002, Accuracy: 59633/60000 (99.39%)
 Test set: Average loss: 0.0194, Accuracy: 9942/10000 (99.42%)
