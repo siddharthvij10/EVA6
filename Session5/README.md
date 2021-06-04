@@ -51,7 +51,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 1. #### Target
   * Add Learning Rate concept using plateau to make sure accuracy stays near to 99.4 
 2. #### Result
-  * Params - 8018, Best Train Acc - , Best Test Acc -  
+  * Params - 8018, Best Train Acc - 99.44 , Best Test Acc - 99.45
 3. #### Analysis
   * Model slightly underfitting but achieved target
 
