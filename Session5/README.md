@@ -10,14 +10,14 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 
 
 ### Base Model
-* **File** Base_Model
+* **File** Base_Model.ipynb
 1. #### Result
   * Params - 6,377,760, Best Train Acc - 99.94, Best Test Acc - 99.24
 2. #### Analysis
   * Quite heavy model and has potential to achieve desired result.  
 
 ### Iteration 1
-* **File** Experiment_1
+* **File** Experiment_1.ipynb
 1. #### Target
   * Reduce size of model
 2. #### Result
@@ -26,7 +26,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
   * Overfitting in model; model has capability to learn more
 
 ### Iteration 2
-* **File** Experiment_2
+* **File** Experiment_2.ipynb
 1. #### Target
   * Overfitting - Reduce overfitting by adding regularization and add training capacity by adding drop out. 
   * Increase Capacity - Replace last layer with GAP to save some parameters. Reduce parameters further by using a 1 * 1 after max pool instead of current 3 * 3.
@@ -37,7 +37,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
   * There is a slight overfitting.
 
 ### Iteration 3
-* **File** Experiment_3
+* **File** Experiment_3.ipynb
 1. #### Target
   * Correct mistake in model w.r.t outputs of final layer - use FC layer after gap
   * Increase val of dropout slightly
@@ -47,7 +47,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
   * Model reached target but didnt stay there. 
 
 ### Iteration 4
-* **File** Experiment_4
+* **File** Experiment_4.ipynb
 1. #### Target
   * Add Learning Rate concept using plateau to make sure accuracy stays near to 99.4 
 2. #### Result
