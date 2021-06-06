@@ -55,6 +55,46 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 3. #### Analysis
   * Model slightly underfitting but achieved target
 
+## Architecture of Last iteration
+```
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 8, 28, 28]              72
+              ReLU-2            [-1, 8, 28, 28]               0
+       BatchNorm2d-3            [-1, 8, 28, 28]              16
+           Dropout-4            [-1, 8, 28, 28]               0
+            Conv2d-5            [-1, 8, 28, 28]             576
+              ReLU-6            [-1, 8, 28, 28]               0
+       BatchNorm2d-7            [-1, 8, 28, 28]              16
+           Dropout-8            [-1, 8, 28, 28]               0
+         MaxPool2d-9            [-1, 8, 14, 14]               0
+           Conv2d-10           [-1, 16, 14, 14]           1,152
+             ReLU-11           [-1, 16, 14, 14]               0
+      BatchNorm2d-12           [-1, 16, 14, 14]              32
+          Dropout-13           [-1, 16, 14, 14]               0
+           Conv2d-14           [-1, 16, 14, 14]           2,304
+             ReLU-15           [-1, 16, 14, 14]               0
+      BatchNorm2d-16           [-1, 16, 14, 14]              32
+          Dropout-17           [-1, 16, 14, 14]               0
+        MaxPool2d-18             [-1, 16, 7, 7]               0
+           Conv2d-19              [-1, 8, 7, 7]             128
+           Conv2d-20             [-1, 16, 5, 5]           1,152
+             ReLU-21             [-1, 16, 5, 5]               0
+      BatchNorm2d-22             [-1, 16, 5, 5]              32
+          Dropout-23             [-1, 16, 5, 5]               0
+           Conv2d-24             [-1, 16, 3, 3]           2,304
+             ReLU-25             [-1, 16, 3, 3]               0
+      BatchNorm2d-26             [-1, 16, 3, 3]              32
+          Dropout-27             [-1, 16, 3, 3]               0
+        AvgPool2d-28             [-1, 16, 1, 1]               0
+           Linear-29                   [-1, 10]             170
+================================================================
+```
+
+## Receptive Field of Last iteration is in file ReceptiveField.xls
+!![ReceptiveField](https://user-images.githubusercontent.com/17743850/120941321-931dc180-c73f-11eb-9ae5-d0a450ed58d8.PNG)
+
 ## Logs from Last iteration
 epoch number  11
 Train set: Average loss: 0.0002, Accuracy: 59633/60000 (99.39%)
