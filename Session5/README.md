@@ -94,7 +94,7 @@ Achieve 99.4% accuracy consistantly in at-least last 3 iterations of 15 iteratio
 
 ## Receptive Field of Last iteration
 * **File** ReceptiveField.xls
-!![ReceptiveField](https://user-images.githubusercontent.com/17743850/120941321-931dc180-c73f-11eb-9ae5-d0a450ed58d8.PNG)
+* ![ReceptiveField](https://user-images.githubusercontent.com/17743850/120941321-931dc180-c73f-11eb-9ae5-d0a450ed58d8.PNG)
 
 ## Logs from Last iteration
 epoch number  11
