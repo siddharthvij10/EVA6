@@ -17,7 +17,7 @@ and record following items:
 We created 3 files titled - [BatchNorm_L1.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/BatchNorm_L1.ipynb), [GroupNorm.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/GroupNorm.ipynb) and [LayerNorm.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/LayerNorm.ipynb) placed in folder [Objective1](https://github.com/siddharthvij10/EVA6/tree/dev_unpublished/Session6/Objective1)
 
 ### Files Created in Response to Objective 1
-We have created 4 files titled - BN.py, LN.py, GN.py and model.py that are placed in folder Objective2.
+We have created 4 files titled - [BN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/BN.py), [LN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/LN.py), [GN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/GN.py) and [model.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/Model.ipynb) that are placed in folder [Objective2](https://github.com/siddharthvij10/EVA6/tree/dev_unpublished/Session6/Objective2).
 
 ### How to perform normalization techniques
 1. Batch normalization is performed across channels of all images. Let's say, we are in layer number 2, we consider channel number 1 of all the images to find mean and std. Hence, the parameters this technique creates depends highly on number of channels in each layer.
