@@ -21,6 +21,17 @@ We have created 4 files titled - BN.py, LN.py, GN.py and model.py that are place
 
 ### Findings from the normalization techniques
 
+####Train and Test Accuracy of 3 models built are:
+1. Batch Norm - Params =  :Train Accuracy =  , Test Accuracy = 
+2. Layer Norm - Params =  :Train Accuracy = , Test Accuracy = 
+3. Group Norm - Params =  :Train Accuracy =  , Test Accuracy =
+
+####Performance Comparison: - TODO
+1. GN
+2. LN
+3. BN
+4. Hence the performance of the regularisation based on this esperiment is - 
+
 ### All Graphs
 
 ### Collection of Misclassified images
