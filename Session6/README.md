@@ -41,10 +41,15 @@ We have created 4 files titled - BN.py, LN.py, GN.py and model.py that are place
 
 ### Collection of Misclassified images
 1. Layernorm
+
 ![LNimage](https://user-images.githubusercontent.com/17743850/121756775-e7a6af80-cb38-11eb-9a84-fa6fb01db8c0.PNG)
+
 2. Groupnorm
+
 ![GNIMage](https://user-images.githubusercontent.com/17743850/121756803-fee59d00-cb38-11eb-9f28-ef448008cb72.PNG)
+
 3. Batchnorm
+
 ![BNimage](https://user-images.githubusercontent.com/17743850/121756815-09a03200-cb39-11eb-8974-e4e0dbd88fb3.PNG)
 
 
