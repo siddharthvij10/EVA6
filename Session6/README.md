@@ -19,6 +19,11 @@ We created 3 files titled - [BatchNorm_L1.ipynb](https://github.com/siddharthvij
 ### Files Created in Response to Objective 1
 We have created 4 files titled - BN.py, LN.py, GN.py and model.py that are placed in folder Objective2.
 
+### How to perform normalization techniques
+    1. Batch normalization is performed across channels of all images. Let's say, we are in layer number 2, we consider channel number 1 of all the images to find mean and std. Hence, the parameters this technique creates depends highly on number of channels in each layer.
+    2. Layer normalization is performed on each and every image seperately. We get all the channels of let's say image number 1 in layer number 2  and find mean and std and hence, parameters in Layer norm are dependent on number of images.
+    3. Group normalisation is somewhere in between BN and LN. Here we divide the channels of each and every image in each and every layer into groups and then normalize them seperately. 
+
 ### Findings from the normalization techniques
 
 #### Train and Test Accuracy of 3 models built are:
