@@ -19,25 +19,27 @@ We created 3 files titled - [BatchNorm_L1.ipynb](https://github.com/siddharthvij
 ### Files Created in Response to Objective 1
 We have created 4 files titled - [BN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/BN.py), [LN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/LN.py), [GN.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/GN.py) and [model.py](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective2/Model.ipynb) that are placed in folder [Objective2](https://github.com/siddharthvij10/EVA6/tree/dev_unpublished/Session6/Objective2).
 
-### How to perform normalization techniques
+### How to perform normalization techniques based on the excel sheet shared 
 1. Batch normalization is performed across channels of all images. Let's say, we are in layer number 2, we consider channel number 1 of all the images to find mean and std. Hence, the parameters this technique creates depends highly on number of channels in each layer.
 2. Layer normalization is performed on each and every image seperately. We get all the channels of let's say image number 1 in layer number 2  and find mean and std and hence, parameters in Layer norm are dependent on number of images.
 3. Group normalisation is somewhere in between BN and LN. Here we divide the channels of each and every image in each and every layer into groups and then normalize them seperately. 
+![excel](https://user-images.githubusercontent.com/17743850/121758821-b0d49780-cb40-11eb-8299-e2115195a5c0.PNG)
+
 
 ### Findings from the normalization techniques
 
 #### Train and Test Accuracy of 3 models built are:
-1. Batch Norm - Params =  :Train Accuracy =  , Test Accuracy = 
-2. Layer Norm - Params =  :Train Accuracy = , Test Accuracy = 
-3. Group Norm - Params =  :Train Accuracy =  , Test Accuracy =
+1. Batch Norm - Params = 8,018 :Train Accuracy = 99.50 , Test Accuracy = 99.36
+2. Layer Norm - Params = 46578 :Train Accuracy = , Test Accuracy = 
+3. Group Norm - Params = 8,018 :Train Accuracy = 99.33 , Test Accuracy = 99.40
 
 #### Performance Comparison: - TODO
-1. GN
+1. BN has a bit of overfitting but that's negligible.
 2. LN
-3. BN
-4. Hence the performance of the regularisation based on this esperiment is - 
+3. GN performs quite good. It has a bit of underfitting but that shouldn't be a problem.
+4. Hence the performance of the regularisation based on this esperiment is - GN > BN
 
-### All Graphs
+### Accuracy and Loss Graph
 
 ### Collection of Misclassified images
 1. Layernorm
