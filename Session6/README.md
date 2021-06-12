@@ -30,16 +30,18 @@ We have created 4 files titled - [BN.py](https://github.com/siddharthvij10/EVA6/
 
 #### Train and Test Accuracy of 3 models built are:
 1. Batch Norm - Params = 8,018 :Train Accuracy = 99.50 , Test Accuracy = 99.36
-2. Layer Norm - Params = 46578 :Train Accuracy = , Test Accuracy = 
+2. Layer Norm - Params = 46578 :Train Accuracy = 99.54, Test Accuracy = 99.37
 3. Group Norm - Params = 8,018 :Train Accuracy = 99.33 , Test Accuracy = 99.40
 
 #### Performance Comparison: - TODO
 1. BN has a bit of overfitting but that's negligible.
-2. LN
+2. LN is also showing similiar results as BN
 3. GN performs quite good. It has a bit of underfitting but that shouldn't be a problem.
-4. Hence the performance of the regularisation based on this esperiment is - GN > BN
+4. Hence based on performance, GN is showing better results than rest.
 
 ### Accuracy and Loss Graph
+![LossGraph1](https://user-images.githubusercontent.com/17743850/121759328-ca76de80-cb42-11eb-9cab-4b3f0ed6040c.PNG)
+![Accgraph1](https://user-images.githubusercontent.com/17743850/121759331-cd71cf00-cb42-11eb-82ca-5855631d150c.PNG)
 
 ### Collection of Misclassified images
 1. Layernorm
