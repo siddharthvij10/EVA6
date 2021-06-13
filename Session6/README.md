@@ -12,6 +12,7 @@ applies the normalisation technique/techniques to the model based on Normalisati
 and record following items:
     1. Test Loss and Test Accuracy graphs
     2. Misclassified images
+
 **Note** - The 3 models for Batch, Layer and Group should be present seperately in their own files and will be called from model file.
 
 ### Files Created in Response to Objective 1
