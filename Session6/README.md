@@ -12,6 +12,7 @@ applies the normalisation technique/techniques to the model based on Normalisati
 and record following items:
     1. Test Loss and Test Accuracy graphs
     2. Misclassified images
+**Note** - The 3 models for Batch, Layer and Group should be present seperately in their own files and will be called from model file.
 
 ### Files Created in Response to Objective 1
 We created 3 files titled - [BatchNorm_L1.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/BatchNorm_L1.ipynb), [GroupNorm.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/GroupNorm.ipynb) and [LayerNorm.ipynb](https://github.com/siddharthvij10/EVA6/blob/dev_unpublished/Session6/Objective1/LayerNorm.ipynb) placed in folder [Objective1](https://github.com/siddharthvij10/EVA6/tree/dev_unpublished/Session6/Objective1)
